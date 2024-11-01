@@ -1,0 +1,21 @@
+# データファイルを除外
+data/
+*.csv
+
+# Jupyter Notebook/Labのチェックポイントを除外
+.ipynb_checkpoints/
+
+# Pythonのキャッシュファイルを除外
+__pycache__/
+*.pyc
+
+# VS Codeの設定ファイルを除外
+.vscode/
+
+# ログファイルを除外
+logs/
+*.log
+
+# 環境設定ファイルを除外（必要に応じて）
+.env
+.env.*
